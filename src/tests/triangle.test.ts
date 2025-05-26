@@ -3,7 +3,8 @@ import { Point } from '../entities/Point2D';
 
 describe('Triangle', () => {
     test('correctly calculates perimeter', () => {
-        // Создаем треугольник с координатами (0,0), (0,3), (4,0) - это прямоугольный треугольник со сторонами 3, 4, 5
+        // Создаем треугольник с координатами (0,0), (0,3), (4,0) 
+        // - это прямоугольный треугольник со сторонами 3, 4, 5
         const a = new Point(0, 0);
         const b = new Point(0, 3);
         const c = new Point(4, 0);
