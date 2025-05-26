@@ -43,7 +43,7 @@ export class Tetrahedron {
         );
     }
 
-    // Метод проверяет, лежит ли основание ABC на одной из координатных плоскостей (XY, XZ, YZ)
+    // Метод проверяет, лежит ли основание тетраэдра ABC на одной из координатных плоскостей (XY, XZ, YZ)
     isBaseOnCoordinatePlane(): boolean {
         const allOnXY = this.a.z === 0 && this.b.z === 0 && this.c.z === 0;
         const allOnXZ = this.a.y === 0 && this.b.y === 0 && this.c.y === 0;

@@ -3,7 +3,7 @@ import { Point3D } from '../entities/Point3D';
 // Валидатор проверяет, можно ли построить тетраэдр из 4 точек
 export class TetrahedronValidator {
     static isValid(a: Point3D, b: Point3D, c: Point3D, d: Point3D): boolean {
-        // Считаем объём тетраэдра по формуле (через смешанное произведение)
+        // Считаем объём тетраэдра по формуле 
         const v = Math.abs(
             (a.x - d.x) * ((b.y - d.y) * (c.z - d.z) - (c.y - d.y) * (b.z - d.z))
             -

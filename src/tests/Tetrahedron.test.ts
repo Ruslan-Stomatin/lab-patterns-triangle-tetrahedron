@@ -2,7 +2,8 @@ import { Point3D } from '../entities/Point3D';
 import { Tetrahedron } from '../entities/Tetrahedron';
 
 describe('Tetrahedron', () => {
-    // Здесь мы создаем стандартный тетраэдр с вершинами в начале координат и по одной вершине на каждой координатной оси
+    // Здесь мы создаем стандартный тетраэдр с вершинами в начале координат
+    // и по одной вершине на каждой координатной оси
     const a = new Point3D(0, 0, 0);
     const b = new Point3D(1, 0, 0);
     const c = new Point3D(0, 1, 0);
